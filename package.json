@@ -1,0 +1,22 @@
+{
+  "name": "teamcreatives",
+  "version": "1.0.0",
+  "description": "teamcreative",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^7.0.0"
+  },
+  "devDependencies": {},
+
+
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server --browser=firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "iammorbor"
+  },
+  "author": "morbor",
+  "license": "ISC"
+}

@@ -1,0 +1,84 @@
+.crew_section{
+        max-width: 140rem;
+         display: flex;
+        justify-content: space-between;
+        padding: 3rem 10rem;
+
+        &__heading{
+        text-transform: capitalize;
+        font-size: 3rem;
+        font-family: roboto;
+        font-weight: 500;
+        width:max-content;
+        color: #000;
+
+        @media only screen and (max-width: 58.8em) {
+           width: 50%; }
+       }
+       @media only screen and (max-width: 48em) {
+             flex-direction: column;
+             
+    }
+}
+
+
+
+
+.about{
+     
+    @media only screen and (max-width: 58.8em) {
+        margin-left: 7rem;
+        
+     }
+     @media only screen and (max-width: 48em) {
+        margin-left: 0;
+        
+        
+}
+ 
+    &-heading{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 2rem;
+            width: max-content;}
+
+    }
+    &_text{
+        font-size: 1.7rem;
+        font-weight: 300;
+        font-family: roboto;
+        
+        @media only screen and (max-width: 58.8em) {
+            width: 80%;}
+
+        @media only screen and (max-width: 48em) {
+            font-size: 2.2rem;
+            width: 100%;}
+        
+    }
+
+
+}
+
+.team_image{
+    position: relative;
+}
+
+
+.crew_dept{
+    font-size: 1.7rem;
+    color: #000;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: absolute;
+    top: 15%;
+    left: 100%;
+    writing-mode: vertical-lr;
+}
+.crew_name{
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #000;
+}
